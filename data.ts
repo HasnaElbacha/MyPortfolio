@@ -7,7 +7,7 @@ export const portfolioData: CVData = {
   contact: {
     email: "elbachahasna1@gmail.com",
     phone: "(+212) 6 48 72 06 56",
-    location: "Essaouira, Morocco (National Mobility)",
+    location: "Casablanca, Morocco (National Mobility)",
     linkedin: "HASNA EL BACHA"
   },
   summary: "Data & Software Engineer Junior, specialized in Big Data & Cloud Computing, passionate about designing scalable data pipelines and building high-quality full-stack applications. I transform complex data into actionable insights and robust digital solutions using modern technologies such as Python, Spring Boot, React, and cloud platforms. Curious, analytical, and driven by continuous learning, I am committed to delivering reliable and impactful solutions.",
