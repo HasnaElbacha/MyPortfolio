@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
               <span className="text-cyan-400 font-bold text-xl">H</span>
             </div>
             <span className="hidden sm:block font-bold text-xl tracking-tighter">
-              HASNA<span className="text-cyan-400">.ELBACHA</span>
+              HASNA<span className="text-cyan-400">.EL-BACHA</span>
             </span>
           </motion.div>
 

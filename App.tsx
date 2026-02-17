@@ -247,44 +247,6 @@ const handleCopy = (e: React.MouseEvent, text: string) => {
             Professional Nodes
           </h2>
 
-          {/* <div className="grid md:grid-cols-2 gap-8">
-            {portfolioData.experience.map((exp) => (
-              <motion.div
-                key={exp.id}
-                className="relative p-[1px] rounded-3xl bg-gradient-to-b from-slate-700 to-transparent group overflow-hidden"
-              >
-                <div className="relative bg-slate-950 p-8 rounded-[23px] h-full flex flex-col border border-white/5">
-                  <div className="flex justify-between items-start mb-6">
-                    <div className="p-3 rounded-xl bg-cyan-500/10 text-cyan-400 shadow-inner">
-                      <Briefcase className="w-6 h-6" />
-                    </div>
-                    <div className="px-3 py-1 rounded-full bg-slate-900 border border-slate-800 text-[10px] font-mono text-slate-500">
-                      {exp.date}
-                    </div>
-                  </div>
-                  <h3 className="text-2xl font-bold group-hover:text-cyan-400 transition-colors mb-1">{exp.title}</h3>
-                  <p className="text-cyan-500/70 text-sm font-mono mb-6 tracking-wide uppercase">{exp.company}</p>
-                  
-                  <ul className="space-y-3 mb-8 flex-grow">
-                    {exp.description.map((item, i) => (
-                      <li key={i} className="text-sm text-slate-400 flex gap-3 leading-relaxed">
-                        <ChevronRight className="w-4 h-4 text-cyan-500 flex-shrink-0 mt-1" />
-                        {item}
-                      </li>
-                    ))}
-                  </ul>
-
-                  <div className="flex flex-wrap gap-2 mt-auto">
-                    {exp.techStack.map(tech => (
-                      <span key={tech} className="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-800 text-[10px] font-mono text-cyan-400/60 uppercase tracking-widest">
-                        {tech}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div> */}
           {/* Ancre pour le scroll automatique lors du changement de page */}
           <div id="experience-start"></div>
 
@@ -572,7 +534,7 @@ const handleCopy = (e: React.MouseEvent, text: string) => {
            <a href="https://github.com/HasnaElbacha" className="hover:text-cyan-400 transition-colors font-mono text-xs">GITHUB</a>
         </div>
         <p className="text-slate-600 font-mono text-[10px] tracking-widest">
-          &copy; {new Date().getFullYear()} HASNA EL BACHA | BUILT WITH REACTIONARY LOGIC & HUD CORE
+          &copy; {new Date().getFullYear()} HASNA EL BACHA
         </p>
         <div className="mt-4 flex justify-center gap-2">
            <div className="w-1 h-1 rounded-full bg-cyan-500/30"></div>
